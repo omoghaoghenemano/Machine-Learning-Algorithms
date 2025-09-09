@@ -1,0 +1,59 @@
+# Large data files
+*.parquet
+*.pkl
+*.h5
+*.hdf5
+*.npz
+*.csv
+*.zip
+*.tar.gz
+
+# Model files
+*.model
+*.weights
+*.checkpoint
+*.pth
+*.pt
+
+# Specific large files that caused issues
+homework1/train1.parquet
+homework2/mnist_224_cached.pkl
+
+# Data directories
+data/
+datasets/
+cache/
+*.cache/
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+*.so
+
+# Jupyter notebook checkpoints
+.ipynb_checkpoints/
+
+# Virtual environments
+venv/
+env/
+.env
+
+# IDE files
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Notebooks (if you want to exclude them)
+/notebooks
+
+# Temporary files
+*.tmp
+*.temp

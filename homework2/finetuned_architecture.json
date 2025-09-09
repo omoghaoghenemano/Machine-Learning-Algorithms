@@ -1,0 +1,38 @@
+[
+  {
+    "type": "Dense",
+    "name": "layer_0",
+    "in_features": 512,
+    "out_features": 2048
+  },
+  {
+    "type": "Dense",
+    "name": "layer_3",
+    "in_features": 2048,
+    "out_features": 1024
+  },
+  {
+    "type": "Dense",
+    "name": "layer_6",
+    "in_features": 1024,
+    "out_features": 512
+  },
+  {
+    "type": "Dense",
+    "name": "layer_9",
+    "in_features": 512,
+    "out_features": 256
+  },
+  {
+    "type": "Dense",
+    "name": "layer_12",
+    "in_features": 256,
+    "out_features": 128
+  },
+  {
+    "type": "Dense",
+    "name": "layer_15",
+    "in_features": 128,
+    "out_features": 45
+  }
+]
